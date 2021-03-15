@@ -11,15 +11,15 @@ $prm-font-size : 12px;
 .web-banner{
 
     content: "";
-    background: url("../../../static/banner/banner1.jpeg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../static/banner/banner3.jpeg");
     position: relative;
     height: 500px;
     width: 100%;
     top: 0;
     background-position: center;
     background-attachment: fixed;
-    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 
     span{
         letter-spacing: 0.67em;

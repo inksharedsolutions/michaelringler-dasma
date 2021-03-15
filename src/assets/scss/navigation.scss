@@ -33,7 +33,7 @@
 	align-items: center;
 	z-index: 999;
 	position: absolute;
-	background: white;
+	// background: white;
 
 	[aria-current=page] {
 		color: #ec5bff !important;
@@ -51,7 +51,7 @@
 
 		a {
 			text-decoration: none;
-			color: #000 !important;
+			color: #fff !important;
 			font-size: 15px;
 			text-transform: uppercase;
 			font-weight: 900;

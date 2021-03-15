@@ -78,15 +78,15 @@
     
     &:after{
         content: "";
-        background: url("../../../static/banner/banner1.jpeg") no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../static/banner/banner3.jpeg");
         position: absolute;
         height: 70vh;
         width: 100%;
         top: 0;
         background-position: center;
         background-attachment: fixed;
-        background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
     } 
 
 }       
@@ -121,7 +121,7 @@
     text-align: center;
     color: #000000 !important;
     background: -webkit-linear-gradient(#e0482f, #a90c55);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -142,11 +142,11 @@
     h1{
 
         text-transform: uppercase;
-        font-size: 3vw;
+        font-size: 3.5vw;
         line-height: 1;
         font-weight: 900;
         color: #fff!important;
-        padding: 0;
+        padding: 50px;
         text-align: center;
 
         span{
