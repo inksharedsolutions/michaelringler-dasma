@@ -22,8 +22,8 @@ const Footer = ()=>{
                         </h1>
 
                         <p>
-                            Chaitanya Das Ma loves to hear from readers. You can reach his via email. 
-                            Feel free to send questions about writing, his works, interviews 
+                            Chaitanya Das Ma loves to hear from readers. You can reach via email. 
+                            Feel free to send questions about writing, works, interviews 
                             and other publicity matters.
                         </p>
                         
